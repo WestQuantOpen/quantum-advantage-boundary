@@ -1,0 +1,32 @@
+{
+  "n24_d0.5_s0": {
+    "n": 24,
+    "density": 0.5,
+    "seed": 0,
+    "optimal": 37.453382891204384,
+    "classical_best": 26.811495871608905,
+    "oracle_quantum_best": 37.453382891204384,
+    "oracle_beats_classical": true,
+    "margin": 10.64188701959548,
+    "n_configs_searched": 50,
+    "best_config": {
+      "p": 3,
+      "penalty_coeff": 23.73385950780996
+    }
+  },
+  "n24_d0.5_s1": {
+    "n": 24,
+    "density": 0.5,
+    "seed": 1,
+    "optimal": 44.889556273881595,
+    "classical_best": 36.178941214998545,
+    "oracle_quantum_best": 44.889556273881595,
+    "oracle_beats_classical": true,
+    "margin": 8.71061505888305,
+    "n_configs_searched": 50,
+    "best_config": {
+      "p": 3,
+      "penalty_coeff": 20.692234174289688
+    }
+  }
+}

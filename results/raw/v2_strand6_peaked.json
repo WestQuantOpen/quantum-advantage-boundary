@@ -1,0 +1,42 @@
+{
+  "peaked_0": {
+    "rank": 0,
+    "peaked_score": 0.3016817826564402,
+    "peak_strength": 1.9589843750000002,
+    "entanglement_proxy": 0.0,
+    "depth": 6,
+    "n_2q_gates": 0
+  },
+  "peaked_1": {
+    "rank": 1,
+    "peaked_score": 0.30165316919139595,
+    "peak_strength": 2.8740234374999996,
+    "entanglement_proxy": 0.0,
+    "depth": 4,
+    "n_2q_gates": 0
+  },
+  "peaked_2": {
+    "rank": 2,
+    "peaked_score": 0.3003555657270262,
+    "peak_strength": 1.939453125,
+    "entanglement_proxy": 0.0,
+    "depth": 6,
+    "n_2q_gates": 0
+  },
+  "peaked_3": {
+    "rank": 3,
+    "peaked_score": 0.2972370212770952,
+    "peak_strength": 2.9033203125,
+    "entanglement_proxy": 0.0,
+    "depth": 6,
+    "n_2q_gates": 0
+  },
+  "peaked_4": {
+    "rank": 4,
+    "peaked_score": 0.29474209753144837,
+    "peak_strength": 2.89453125,
+    "entanglement_proxy": 0.0,
+    "depth": 5,
+    "n_2q_gates": 0
+  }
+}

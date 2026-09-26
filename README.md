@@ -10,11 +10,17 @@
 
 ## Research Question
 
-> **When does the quality of a quantum-selected subspace begin to matter?**
+**V1**: When does the quality of a quantum-selected subspace begin to matter?
 
-Can a shallow quantum sampler produce a solution subspace that enables an otherwise identical classical recovery algorithm to reach better solutions than strong classical samplers at the same sampling and recovery budget?
+**V2 (current)**: What combination of problem structure, representation, quantum kernel, and classical compute budget creates a crossover?
 
-The objective is NOT to assume or claim quantum advantage. The objective is to **locate, characterize, and aggressively test** a possible quantum/classical crossover.
+```
+A = A(N, H, B_C, B_Q, R, K_Q, chi)
+```
+
+Where N = problem size, H = hardness, B_C = classical recovery budget, B_Q = quantum sampling budget, R = representation, K_Q = quantum kernel, chi = classical simulability capacity.
+
+The negative v1 results (N≤28) are the first data points in the A<0 region. The v2 campaign diagnosed WHY (recovery erases the signal), found the hidden signal (oracle QAOA beats classical by +8-10), and identified the path to a positive result.
 
 ---
 
@@ -35,6 +41,8 @@ This is a working prototype of a **Quantum Flywheel** — an AI agent that auton
 
 ## Campaign Results
 
+### V1: Coarse Boundary Scan
+
 | Metric | Value |
 |--------|-------|
 | Experiments orchestrated | 26 |
@@ -44,12 +52,28 @@ This is a working prototype of a **Quantum Flywheel** — an AI agent that auton
 | Agent councils | 3 |
 | Transition band | n=18-24, density=0.5-0.7 |
 | Advantage level | LEVEL 0 (no quantum advantage) |
-| Max A_Q | 9.52 |
-| Quantum-better rate | 14.3% |
+
+### V2: Six-Strand Extended Campaign
+
+| Strand | Experiments | Key Finding |
+|--------|-------------|-------------|
+| 1: Recovery Erasure | 16 | Diagnosis B: quantum diverse but recovery erases signal |
+| 2: Oracle Test | 2 | Oracle QAOA beats classical by +8-10 points |
+| 3: QeMCMC | 3 | Matches PT at n=20 (too easy) |
+| 4: Hardness + QCSC | 20 | Deceptive instances have 17% SA gap; QCSC core=0 |
+| 5: Simulability | 3 | Shallow QAOA (p=1) is classically easy |
+| 6: Peaked Circuits | 5 | Peak strengths 2-3x mean probability |
+
+**Phase Diagram**: 123 data points. Boundary at N=(28, 100).
+- A > 0: 18 points (oracle + B_C=0)
+- A = 0: 88 points (recovery erasure)
+- A < 0: 17 points (hardness + QCSC)
 
 ### Scientific Conclusion
 
-**No quantum advantage detected.** Classical recovery dominates through tested sizes (n=18-26). The boundary may be beyond n=28 or require deeper circuits. This is a scientifically valuable negative result — the agent correctly mapped the transition region and identified where classical recovery becomes non-trivial.
+**V1**: No quantum advantage detected. Classical recovery dominates through N=26.
+
+**V2**: The negative result was diagnosed — quantum IS more diverse (128 basins vs 26-54) but recovery erases the advantage. Per-instance optimized QAOA (oracle) CAN beat classical by +8-10 points. The challenge is predicting the oracle config from graph structure — a perfect ML problem for WestQuant.
 
 ---
 

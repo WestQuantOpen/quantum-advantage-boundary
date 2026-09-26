@@ -1,0 +1,850 @@
+{
+  "n24_d0.5_s0": {
+    "n": 24,
+    "density": 0.5,
+    "seed": 0,
+    "optimal": 37.453382891204384,
+    "q_diag": {
+      "best_raw_objective": 97.4183594554681,
+      "mean_raw_objective": 64.72265645813242,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.9921875,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 37.453382891204384,
+      "mean_raw_objective": 28.739827293749688,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.0625,
+      "p_within_hamming_2": 0.109375,
+      "p_within_hamming_3": 0.1640625,
+      "n_attraction_basins": 50.0,
+      "low_energy_tail_mass": 0.1796875,
+      "diversity": 0.7466230543284621,
+      "n_unique": 50.0
+    },
+    "q_erasure": {
+      "0": 97.4183594554681,
+      "100": 37.453382891204384,
+      "500": 37.453382891204384,
+      "2000": 37.453382891204384,
+      "10000": 37.453382891204384
+    },
+    "c_erasure": {
+      "0": 37.453382891204384,
+      "100": 37.453382891204384,
+      "500": 37.453382891204384,
+      "2000": 37.453382891204384,
+      "10000": 37.453382891204384
+    },
+    "advantage_curve": {
+      "0": 59.96497656426372,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n24_d0.5_s1": {
+    "n": 24,
+    "density": 0.5,
+    "seed": 1,
+    "optimal": 44.889556273881595,
+    "q_diag": {
+      "best_raw_objective": 101.54235874321934,
+      "mean_raw_objective": 62.977435641723545,
+      "min_hamming_to_optimum": 7.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.8828125,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 44.889556273881595,
+      "mean_raw_objective": 35.456886326758145,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.1171875,
+      "p_within_hamming_2": 0.203125,
+      "p_within_hamming_3": 0.25,
+      "n_attraction_basins": 52.0,
+      "low_energy_tail_mass": 0.1796875,
+      "diversity": 0.7353652865358592,
+      "n_unique": 52.0
+    },
+    "q_erasure": {
+      "0": 101.54235874321934,
+      "100": 44.889556273881595,
+      "500": 44.889556273881595,
+      "2000": 44.889556273881595,
+      "10000": 44.889556273881595
+    },
+    "c_erasure": {
+      "0": 44.889556273881595,
+      "100": 44.889556273881595,
+      "500": 44.889556273881595,
+      "2000": 44.889556273881595,
+      "10000": 44.889556273881595
+    },
+    "advantage_curve": {
+      "0": 56.65280246933774,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n24_d0.5_s2": {
+    "n": 24,
+    "density": 0.5,
+    "seed": 2,
+    "optimal": 41.94706229239108,
+    "q_diag": {
+      "best_raw_objective": 113.69115420026552,
+      "mean_raw_objective": 73.23477929188925,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.96875,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 41.94706229239108,
+      "mean_raw_objective": 32.85712250100124,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.1484375,
+      "p_within_hamming_2": 0.1484375,
+      "p_within_hamming_3": 0.265625,
+      "n_attraction_basins": 39.0,
+      "low_energy_tail_mass": 0.1484375,
+      "diversity": 0.6653098139287449,
+      "n_unique": 39.0
+    },
+    "q_erasure": {
+      "0": 113.69115420026552,
+      "100": 41.94706229239108,
+      "500": 41.94706229239108,
+      "2000": 41.94706229239108,
+      "10000": 41.94706229239108
+    },
+    "c_erasure": {
+      "0": 41.94706229239108,
+      "100": 41.94706229239108,
+      "500": 41.94706229239108,
+      "2000": 41.94706229239108,
+      "10000": 41.94706229239108
+    },
+    "advantage_curve": {
+      "0": 71.74409190787443,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n24_d0.7_s0": {
+    "n": 24,
+    "density": 0.7,
+    "seed": 0,
+    "optimal": 26.15596290832476,
+    "q_diag": {
+      "best_raw_objective": 104.12224854263617,
+      "mean_raw_objective": 65.58015663696665,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 26.15596290832476,
+      "mean_raw_objective": 19.935017412952533,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.1484375,
+      "p_within_hamming_2": 0.1484375,
+      "p_within_hamming_3": 0.1796875,
+      "n_attraction_basins": 28.0,
+      "low_energy_tail_mass": 0.1484375,
+      "diversity": 0.6129531731108427,
+      "n_unique": 28.0
+    },
+    "q_erasure": {
+      "0": 104.12224854263617,
+      "100": 26.15596290832476,
+      "500": 26.15596290832476,
+      "2000": 26.15596290832476,
+      "10000": 26.15596290832476
+    },
+    "c_erasure": {
+      "0": 26.15596290832476,
+      "100": 26.15596290832476,
+      "500": 26.15596290832476,
+      "2000": 26.15596290832476,
+      "10000": 26.15596290832476
+    },
+    "advantage_curve": {
+      "0": 77.96628563431142,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n24_d0.7_s1": {
+    "n": 24,
+    "density": 0.7,
+    "seed": 1,
+    "optimal": 27.492323496739168,
+    "q_diag": {
+      "best_raw_objective": 83.4413604076148,
+      "mean_raw_objective": 48.41408356424728,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.9609375,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 27.492323496739168,
+      "mean_raw_objective": 21.705277924035954,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.2109375,
+      "p_within_hamming_2": 0.2109375,
+      "p_within_hamming_3": 0.359375,
+      "n_attraction_basins": 33.0,
+      "low_energy_tail_mass": 0.265625,
+      "diversity": 0.6280046423995517,
+      "n_unique": 33.0
+    },
+    "q_erasure": {
+      "0": 83.4413604076148,
+      "100": 27.492323496739168,
+      "500": 27.492323496739168,
+      "2000": 27.492323496739168,
+      "10000": 27.492323496739168
+    },
+    "c_erasure": {
+      "0": 27.492323496739168,
+      "100": 27.492323496739168,
+      "500": 27.492323496739168,
+      "2000": 27.492323496739168,
+      "10000": 27.492323496739168
+    },
+    "advantage_curve": {
+      "0": 55.94903691087563,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n24_d0.7_s2": {
+    "n": 24,
+    "density": 0.7,
+    "seed": 2,
+    "optimal": 33.291156768109,
+    "q_diag": {
+      "best_raw_objective": 115.0305304533126,
+      "mean_raw_objective": 71.79064894395634,
+      "min_hamming_to_optimum": 5.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.9921875,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 33.291156768109,
+      "mean_raw_objective": 24.984763116009923,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.1015625,
+      "p_within_hamming_2": 0.1875,
+      "p_within_hamming_3": 0.3671875,
+      "n_attraction_basins": 26.0,
+      "low_energy_tail_mass": 0.1015625,
+      "diversity": 0.5884369765426898,
+      "n_unique": 26.0
+    },
+    "q_erasure": {
+      "0": 115.0305304533126,
+      "100": 33.291156768109,
+      "500": 33.291156768109,
+      "2000": 33.291156768109,
+      "10000": 33.291156768109
+    },
+    "c_erasure": {
+      "0": 33.291156768109,
+      "100": 33.291156768109,
+      "500": 33.291156768109,
+      "2000": 33.291156768109,
+      "10000": 33.291156768109
+    },
+    "advantage_curve": {
+      "0": 81.73937368520359,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n26_d0.5_s0": {
+    "n": 26,
+    "density": 0.5,
+    "seed": 0,
+    "optimal": 37.35003454707535,
+    "q_diag": {
+      "best_raw_objective": 92.1847927936006,
+      "mean_raw_objective": 62.63890624008198,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.9765625,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 37.35003454707535,
+      "mean_raw_objective": 28.042171932974604,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.0703125,
+      "p_within_hamming_2": 0.1328125,
+      "p_within_hamming_3": 0.1640625,
+      "n_attraction_basins": 48.0,
+      "low_energy_tail_mass": 0.0703125,
+      "diversity": 0.7412437919752989,
+      "n_unique": 48.0
+    },
+    "q_erasure": {
+      "0": 92.1847927936006,
+      "100": 37.35003454707535,
+      "500": 37.35003454707535,
+      "2000": 37.35003454707535,
+      "10000": 37.35003454707535
+    },
+    "c_erasure": {
+      "0": 37.35003454707535,
+      "100": 37.35003454707535,
+      "500": 37.35003454707535,
+      "2000": 37.35003454707535,
+      "10000": 37.35003454707535
+    },
+    "advantage_curve": {
+      "0": 54.83475824652524,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n26_d0.5_s1": {
+    "n": 26,
+    "density": 0.5,
+    "seed": 1,
+    "optimal": 43.38120949759073,
+    "q_diag": {
+      "best_raw_objective": 117.40858083294492,
+      "mean_raw_objective": 72.36102683834656,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.984375,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 43.38120949759073,
+      "mean_raw_objective": 33.362907361186345,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.125,
+      "p_within_hamming_2": 0.1953125,
+      "p_within_hamming_3": 0.1953125,
+      "n_attraction_basins": 54.0,
+      "low_energy_tail_mass": 0.2109375,
+      "diversity": 0.7506001361385383,
+      "n_unique": 54.0
+    },
+    "q_erasure": {
+      "0": 117.40858083294492,
+      "100": 43.38120949759073,
+      "500": 43.38120949759073,
+      "2000": 43.38120949759073,
+      "10000": 43.38120949759073
+    },
+    "c_erasure": {
+      "0": 43.38120949759073,
+      "100": 43.38120949759073,
+      "500": 43.38120949759073,
+      "2000": 43.38120949759073,
+      "10000": 43.38120949759073
+    },
+    "advantage_curve": {
+      "0": 74.02737133535419,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n26_d0.5_s2": {
+    "n": 26,
+    "density": 0.5,
+    "seed": 2,
+    "optimal": 44.9669670542541,
+    "q_diag": {
+      "best_raw_objective": 100.14949448367092,
+      "mean_raw_objective": 66.17075430573487,
+      "min_hamming_to_optimum": 7.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 0.9375,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 44.9669670542541,
+      "mean_raw_objective": 32.0581162915049,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.109375,
+      "p_within_hamming_2": 0.1484375,
+      "p_within_hamming_3": 0.1640625,
+      "n_attraction_basins": 46.0,
+      "low_energy_tail_mass": 0.109375,
+      "diversity": 0.7092527659621781,
+      "n_unique": 46.0
+    },
+    "q_erasure": {
+      "0": 100.14949448367092,
+      "100": 44.9669670542541,
+      "500": 44.9669670542541,
+      "2000": 44.9669670542541,
+      "10000": 44.9669670542541
+    },
+    "c_erasure": {
+      "0": 44.9669670542541,
+      "100": 44.9669670542541,
+      "500": 44.9669670542541,
+      "2000": 44.9669670542541,
+      "10000": 44.9669670542541
+    },
+    "advantage_curve": {
+      "0": 55.18252742941682,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n26_d0.7_s0": {
+    "n": 26,
+    "density": 0.7,
+    "seed": 0,
+    "optimal": 23.980645357573323,
+    "q_diag": {
+      "best_raw_objective": 94.23013108769291,
+      "mean_raw_objective": 65.30235650924308,
+      "min_hamming_to_optimum": 8.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 23.980645357573323,
+      "mean_raw_objective": 20.75550130492673,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.0859375,
+      "p_within_hamming_2": 0.2421875,
+      "p_within_hamming_3": 0.2578125,
+      "n_attraction_basins": 26.0,
+      "low_energy_tail_mass": 0.265625,
+      "diversity": 0.5850123987683544,
+      "n_unique": 26.0
+    },
+    "q_erasure": {
+      "0": 94.23013108769291,
+      "100": 23.980645357573323,
+      "500": 23.980645357573323,
+      "2000": 23.980645357573323,
+      "10000": 23.980645357573323
+    },
+    "c_erasure": {
+      "0": 23.980645357573323,
+      "100": 23.980645357573323,
+      "500": 23.980645357573323,
+      "2000": 23.980645357573323,
+      "10000": 23.980645357573323
+    },
+    "advantage_curve": {
+      "0": 70.24948573011959,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n26_d0.7_s1": {
+    "n": 26,
+    "density": 0.7,
+    "seed": 1,
+    "optimal": 29.00966166945244,
+    "q_diag": {
+      "best_raw_objective": 114.91486948670862,
+      "mean_raw_objective": 71.94435469168538,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 29.00966166945244,
+      "mean_raw_objective": 21.752164900693984,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.0390625,
+      "p_within_hamming_2": 0.171875,
+      "p_within_hamming_3": 0.2109375,
+      "n_attraction_basins": 31.0,
+      "low_energy_tail_mass": 0.0390625,
+      "diversity": 0.6264507251303215,
+      "n_unique": 31.0
+    },
+    "q_erasure": {
+      "0": 114.91486948670862,
+      "100": 29.00966166945244,
+      "500": 29.00966166945244,
+      "2000": 29.00966166945244,
+      "10000": 29.00966166945244
+    },
+    "c_erasure": {
+      "0": 29.00966166945244,
+      "100": 29.00966166945244,
+      "500": 29.00966166945244,
+      "2000": 29.00966166945244,
+      "10000": 29.00966166945244
+    },
+    "advantage_curve": {
+      "0": 85.90520781725618,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n26_d0.7_s2": {
+    "n": 26,
+    "density": 0.7,
+    "seed": 2,
+    "optimal": 24.17591424867026,
+    "q_diag": {
+      "best_raw_objective": 108.785475178262,
+      "mean_raw_objective": 66.61754568734366,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 24.17591424867026,
+      "mean_raw_objective": 19.480768201692637,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.0390625,
+      "p_within_hamming_2": 0.203125,
+      "p_within_hamming_3": 0.203125,
+      "n_attraction_basins": 34.0,
+      "low_energy_tail_mass": 0.125,
+      "diversity": 0.662546698427426,
+      "n_unique": 34.0
+    },
+    "q_erasure": {
+      "0": 108.785475178262,
+      "100": 24.17591424867026,
+      "500": 24.17591424867026,
+      "2000": 24.17591424867026,
+      "10000": 24.17591424867026
+    },
+    "c_erasure": {
+      "0": 24.17591424867026,
+      "100": 24.17591424867026,
+      "500": 24.17591424867026,
+      "2000": 24.17591424867026,
+      "10000": 24.17591424867026
+    },
+    "advantage_curve": {
+      "0": 84.60956092959174,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n28_d0.5_s0": {
+    "n": 28,
+    "density": 0.5,
+    "seed": 0,
+    "optimal": 34.73384084831474,
+    "q_diag": {
+      "best_raw_objective": 107.96132264514006,
+      "mean_raw_objective": 70.75615256691827,
+      "min_hamming_to_optimum": 7.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 34.73384084831474,
+      "mean_raw_objective": 28.77159807388662,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.1875,
+      "p_within_hamming_2": 0.1875,
+      "p_within_hamming_3": 0.234375,
+      "n_attraction_basins": 42.0,
+      "low_energy_tail_mass": 0.28125,
+      "diversity": 0.638247133347915,
+      "n_unique": 42.0
+    },
+    "q_erasure": {
+      "0": 107.96132264514006,
+      "100": 34.73384084831474,
+      "500": 34.73384084831474,
+      "2000": 34.73384084831474,
+      "10000": 34.73384084831474
+    },
+    "c_erasure": {
+      "0": 34.73384084831474,
+      "100": 34.73384084831474,
+      "500": 34.73384084831474,
+      "2000": 34.73384084831474,
+      "10000": 34.73384084831474
+    },
+    "advantage_curve": {
+      "0": 73.22748179682532,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n28_d0.5_s1": {
+    "n": 28,
+    "density": 0.5,
+    "seed": 1,
+    "optimal": 36.60422247068793,
+    "q_diag": {
+      "best_raw_objective": 117.12476719172551,
+      "mean_raw_objective": 80.64092103635491,
+      "min_hamming_to_optimum": 7.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 36.60422247068793,
+      "mean_raw_objective": 31.120922554563776,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.03125,
+      "p_within_hamming_2": 0.140625,
+      "p_within_hamming_3": 0.1640625,
+      "n_attraction_basins": 44.0,
+      "low_energy_tail_mass": 0.1875,
+      "diversity": 0.678820504854018,
+      "n_unique": 44.0
+    },
+    "q_erasure": {
+      "0": 117.12476719172551,
+      "100": 35.92092911241674,
+      "500": 35.92092911241674,
+      "2000": 35.92092911241674,
+      "10000": 35.92092911241674
+    },
+    "c_erasure": {
+      "0": 36.60422247068793,
+      "100": 36.60422247068793,
+      "500": 36.60422247068793,
+      "2000": 36.60422247068793,
+      "10000": 36.60422247068793
+    },
+    "advantage_curve": {
+      "0": 80.52054472103758,
+      "100": -0.6832933582711931,
+      "500": -0.6832933582711931,
+      "2000": -0.6832933582711931,
+      "10000": -0.6832933582711931
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n28_d0.7_s0": {
+    "n": 28,
+    "density": 0.7,
+    "seed": 0,
+    "optimal": 24.802874731186332,
+    "q_diag": {
+      "best_raw_objective": 110.85997072562007,
+      "mean_raw_objective": 73.08991781231961,
+      "min_hamming_to_optimum": 6.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 24.802874731186332,
+      "mean_raw_objective": 18.454906082099175,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.078125,
+      "p_within_hamming_2": 0.0859375,
+      "p_within_hamming_3": 0.1015625,
+      "n_attraction_basins": 37.0,
+      "low_energy_tail_mass": 0.1015625,
+      "diversity": 0.6902496518515439,
+      "n_unique": 37.0
+    },
+    "q_erasure": {
+      "0": 110.85997072562007,
+      "100": 24.802874731186332,
+      "500": 24.802874731186332,
+      "2000": 24.802874731186332,
+      "10000": 24.802874731186332
+    },
+    "c_erasure": {
+      "0": 24.802874731186332,
+      "100": 24.802874731186332,
+      "500": 24.802874731186332,
+      "2000": 24.802874731186332,
+      "10000": 24.802874731186332
+    },
+    "advantage_curve": {
+      "0": 86.05709599443374,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  },
+  "n28_d0.7_s1": {
+    "n": 28,
+    "density": 0.7,
+    "seed": 1,
+    "optimal": 26.29222605302043,
+    "q_diag": {
+      "best_raw_objective": 109.08401073072004,
+      "mean_raw_objective": 77.46526232206085,
+      "min_hamming_to_optimum": 8.0,
+      "p_within_hamming_1": 0.0,
+      "p_within_hamming_2": 0.0,
+      "p_within_hamming_3": 0.0,
+      "n_attraction_basins": 128.0,
+      "low_energy_tail_mass": 1.0,
+      "diversity": 1.0,
+      "n_unique": 128.0
+    },
+    "c_diag": {
+      "best_raw_objective": 26.29222605302043,
+      "mean_raw_objective": 22.138344962382657,
+      "min_hamming_to_optimum": 0.0,
+      "p_within_hamming_1": 0.140625,
+      "p_within_hamming_2": 0.2265625,
+      "p_within_hamming_3": 0.3515625,
+      "n_attraction_basins": 35.0,
+      "low_energy_tail_mass": 0.3046875,
+      "diversity": 0.6442795896698726,
+      "n_unique": 35.0
+    },
+    "q_erasure": {
+      "0": 109.08401073072004,
+      "100": 26.29222605302043,
+      "500": 26.29222605302043,
+      "2000": 26.29222605302043,
+      "10000": 26.29222605302043
+    },
+    "c_erasure": {
+      "0": 26.29222605302043,
+      "100": 26.29222605302043,
+      "500": 26.29222605302043,
+      "2000": 26.29222605302043,
+      "10000": 26.29222605302043
+    },
+    "advantage_curve": {
+      "0": 82.79178467769961,
+      "100": 0.0,
+      "500": 0.0,
+      "2000": 0.0,
+      "10000": 0.0
+    },
+    "diagnosis": "B",
+    "diagnosis_detail": "Quantum is better raw but recovery eliminates the difference. Subspace-info advantage is hidden by strong recovery."
+  }
+}
