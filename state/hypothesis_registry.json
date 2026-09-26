@@ -1,0 +1,15 @@
+{
+  "primary_hypothesis": "For sufficiently difficult MWIS instances and bounded classical recovery budgets, an AI-selected shallow quantum sampler can generate a set S_Q such that identical downstream recovery produces better solutions than recovery initialized from matched classical sample sets S_C.",
+  "levels": {
+    "LEVEL_0": "No measurable quantum contribution",
+    "LEVEL_1": "Quantum-selected subspace advantage under matched sample/recovery budgets",
+    "LEVEL_2": "End-to-end hybrid QCSC advantage under an explicit compute accounting model",
+    "LEVEL_3": "Quantum advantage candidate that survives strong adversarial classical challenges and held-out replication",
+    "LEVEL_X": "Insufficient evidence"
+  },
+  "current_level": "LEVEL_X",
+  "pre_registered": true,
+  "success_criterion": "95% bootstrap CI for paired A_Q excludes zero on held-out instances",
+  "held_out_created": false,
+  "history": []
+}

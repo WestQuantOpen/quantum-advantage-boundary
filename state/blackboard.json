@@ -1,0 +1,22 @@
+{
+  "round": 4,
+  "phase": "init",
+  "experiments_completed": 26,
+  "bluequbit_jobs": 0,
+  "compute_used_usd": 0.0,
+  "transition_band": {
+    "n_range": [
+      18,
+      24
+    ],
+    "density_range": [
+      0.5,
+      0.7
+    ],
+    "classical_p_range": "0.16-0.19"
+  },
+  "best_quantum_result": null,
+  "advantage_level": "LEVEL_0",
+  "agent_opinions": {},
+  "key_findings": []
+}
