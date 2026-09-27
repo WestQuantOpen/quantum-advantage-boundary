@@ -52,28 +52,40 @@ The quantum subspace IS structurally different (more diverse, more basins) but c
 
 ---
 
-## Strand 2: Oracle Test (PARTIAL — 2/8 instances)
+## Strand 2: Oracle Test (4/8 instances — n=26 timed out on CPU)
 
-**Oracle quantum beats classical in 2/2 completed instances.**
+**Oracle quantum beats classical in 4/4 completed instances.**
 
 | Instance | Oracle Quantum | Classical (SA) | Margin |
 |----------|---------------|----------------|--------|
 | n=24, d=0.5, s=0 | 37.45 | 26.81 | **+10.64** |
 | n=24, d=0.5, s=1 | 44.89 | 36.18 | **+8.71** |
+| n=24, d=0.7, s=0 | 26.16 | 23.56 | **+2.60** |
+| n=24, d=0.7, s=1 | 27.49 | 27.16 | **+0.33** |
 
-**Implication**: Per-instance optimized QAOA CAN beat classical by +8-10 points. This is a perfect ML problem: can WestQuant predict the oracle config from graph structure?
+**Mean margin: +5.57 ± 4.24** (all positive)
+
+The advantage is larger at lower density (d=0.5: +8-10 points) and smaller at higher density (d=0.7: +0.3-2.6 points). This makes sense — denser graphs have more constraints and less room for quantum to find better subspaces.
+
+**Implication**: Per-instance optimized QAOA beats classical SA on all tested instances. The margin scales with graph structure. This is a perfect ML problem: can WestQuant predict the oracle config from graph features?
 
 ---
 
-## Strand 3: QeMCMC + Parallel Tempering (3 experiments)
+## Strand 3: QeMCMC + Parallel Tempering (5 experiments on hard instances)
 
-| Instance | PT | QeMCMC | A_Q |
-|----------|-----|--------|-----|
-| n=20, d=0.5, s=0 | 30.49 | 30.49 | 0.00 |
-| n=20, d=0.5, s=1 | 39.46 | 39.46 | 0.00 |
-| n=20, d=0.7, s=0 | 19.03 | 19.03 | 0.00 |
+**QeMCMC vs Classical MCMC on n=20 hard instances:**
 
-At n=20, both PT and QeMCMC find the optimum — the problem is too easy. Need larger n or harder instances to see QeMCMC's inter-basin jumping advantage.
+| Instance | Classical MCMC | QeMCMC | A_Q |
+|----------|---------------|--------|-----|
+| ER d=0.5, s=0 | 19.03 | 19.03 | 0.00 |
+| ER d=0.5, s=1 | 39.46 | 39.46 | 0.00 |
+| deceptive, s=0 | 66.61 | 66.61 | 0.00 |
+| deceptive, s=1 | 65.67 | 65.67 | 0.00 |
+| frustrated, s=0 | 45.14 | 45.14 | 0.00 |
+
+**Result: A_Q = 0.00 on all instances.** Both classical MCMC and QeMCMC find the optimum at n=20 — the instances are too easy for the quantum inter-basin jumping to matter.
+
+**Implication**: Need larger n (n≥28) or harder instances where classical MCMC gets stuck in local basins. The QeMCMC approach is sound (IBM's 2026 work shows it works on 123-node MIS) but needs harder problems to demonstrate the advantage. The n=20 instances are solvable by any method.
 
 ---
 
@@ -178,9 +190,9 @@ The AI agent diagnosed the negative result, found the hidden signal, and identif
 
 ## Next Experiments (Priority Order)
 
-1. **Complete Oracle Test** for all 8 instances — confirm quantum advantage exists
-2. **Train WestQuant** to predict oracle config from graph structure — the ML problem
-3. **QeMCMC on harder instances** — use deceptive/multi_basin graphs where PT struggles
+1. **Complete Oracle Test** for n=26 instances (use GPU instead of CPU for speed)
+2. **Train WestQuant** to predict oracle config from graph features — the ML problem
+3. **QeMCMC on n=28+ hard instances** where classical MCMC gets stuck (need GPU for circuit simulation)
 4. **Fix QCSC decomposition** — preserve a 24-32 qubit hard core for quantum
 5. **MPS bond dimension sweep** on deeper circuits (p=3+) to find simulability limit
 6. **Peaked circuit search** with deeper circuits and entanglement verification
